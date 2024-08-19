@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0f2c;
+    font-family: 'Arial', sans-serif;
+}
+
+.id-card {
+    width: 320px;
+    height: 500px;
+    background-color: #1a2338;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header {
+    background: linear-gradient(135deg, #0033cc, #3366ff);
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 60px;
+    height: 50px;
+}
+
+.company-name h2 {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.photo {
+    margin: 20px 0;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name-title h1 {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.name-title p {
+    margin: 5px 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.details {
+    text-align: left;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.barcode {
+    margin: 1px 0 1px 0;
+     
+}
+
+.barcode img {
+    width: 100px;
+    height: auto;
+}
